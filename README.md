@@ -7,7 +7,7 @@ Welcome to the XML steps to clear text converter tool! This tool is designed to 
 
 *Tool Download:*
 
-You can download the tool by clicking on the following URL: https://www.gulfupp.com/do.php?id=62607
+You can download the tool by clicking on the following URL: [click here to download](https://drive.google.com/file/d/1kv5I-h9929mfsiuUvpTDrKF5JauL0ho9/view?usp=drive_link)
 
 *Using the Tool:*
 
@@ -22,26 +22,27 @@ You can download the tool by clicking on the following URL: https://www.gulfupp.
 3. *Previewing Exported Steps:*
 
    As shown in the image below, the exported steps are currently previewed as XML tags, which are not human-readable.
+   *Make sure that steps existed in the third column*
 
    ![Image of Steps previewed as XML tags](https://www.gulfupp.com/do.php?img=62601)
 
-4. *Open the Converter Tool:*
+5. *Open the Converter Tool:*
 
    Run the steps-converter.exe file to open the converter tool.
 
    ![Image of Steps converter tool](https://www.gulfupp.com/do.php?img=62602)
 
-5. *Select Excel File:*
+6. *Select Excel File:*
 
    Select the Excel file containing your test cases using the tool's interface.
 
    ![Image of Selecting Excel file](https://www.gulfupp.com/do.php?img=62603)
 
-6. *Convert Steps:*
+7. *Convert Steps:*
 
      ![Image of Selecting Excel file](https://www.gulfupp.com/do.php?img=62604)
 
-7. *Modified Excel File:*
+8. *Modified Excel File:*
 
    After running the conversion, your Excel file data will be modified to display the steps in clear text format.
 
