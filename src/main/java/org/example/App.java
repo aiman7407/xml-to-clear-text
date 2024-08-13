@@ -38,7 +38,7 @@ public class App extends JFrame implements ActionListener
     public App() {
         super("Excel Step Converter");
 
-        // Welcome message and description labels
+
         lblWelcome = new JLabel("Welcome to the Step Converter!", JLabel.CENTER);
         lblWelcome.setFont(new Font("Arial", Font.BOLD, 16));
         lblDescription = new JLabel("This tool converts XML steps defined to clear, formatted text.", JLabel.CENTER);
@@ -48,7 +48,7 @@ public class App extends JFrame implements ActionListener
 
         lblMessage = new JLabel("");
 
-        // Set color scheme for a user-friendly experience
+
         Color backgroundColor = new Color(230, 245, 255); // Light blue for background
         Color textColor = new Color(50, 50, 50); // Dark gray for text
         Color buttonColor = new Color(100, 149, 237); // Light blue button
@@ -59,7 +59,7 @@ public class App extends JFrame implements ActionListener
         btnSelectFile.setBackground(buttonColor);
         btnSelectFile.setForeground(textColor);
 
-        // Arrange components and set layout
+
         JPanel panel = new JPanel(new GridLayout(4, 1, 5, 5));
         panel.setBackground(backgroundColor); // Set background color for the panel
         panel.add(lblWelcome);
@@ -133,7 +133,7 @@ public class App extends JFrame implements ActionListener
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document document = builder.parse(new ByteArrayInputStream(xmlString.getBytes()));
 
-        //write here column name from old exported sheet
+
         NodeList steps = document.getElementsByTagName("step");
 
         String processedStep = "";
@@ -182,7 +182,8 @@ public class App extends JFrame implements ActionListener
 
         Sheet sheet = workbook.getSheetAt(0);
 
-        // Assuming "steps" is in the third column (index 2)
+
+
         for (int rowIndex = 1; rowIndex <= sheet.getLastRowNum(); rowIndex++) {
             Row row = sheet.getRow(rowIndex);
             if (row == null) {
